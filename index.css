@@ -1,0 +1,15 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* adjust the padding as needed */
+    margin: 20px; /* adjust the margin as needed */
+    height: 500px; /* adjust the height as needed */
+    width: 100%; /* make sure the container takes up the full width */
+    box-sizing: border-box; /* include padding and border in the total width and height */
+  }
+  
+  .img-container img {
+    max-width: 80%;
+    max-height: 100%;
+  }
